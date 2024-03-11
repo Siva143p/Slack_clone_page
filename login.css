@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: url(img/purple-color-background-gradient-modern-design-abstract_343694-2148.avif)
+    no-repeat;
+  background-size: cover;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main--card {
+  width: 70%;
+  height: 90%;
+  margin-top: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.2);
+  display: flex;
+  padding: 4vw;
+  gap: 5%;
+  backdrop-filter: blur(10px);
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.log--sign--card {
+  position: relative;
+  width: 45%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+/* .log--sign--card:hover {
+    transform: rotateY(180deg);
+} */
+
+:is(.login--card, .signup--card) {
+  width: 100%;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  /* filter: blur(1px); */
+  border-left: 1px solid rgba(221, 218, 218, 0.3);
+  border-top: 1px solid rgba(221, 218, 218, 0.3);
+  border-radius: 10px;
+  padding: 20px 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.signup--card {
+  top: -2rem;
+}
+
+.back {
+  transform: rotateY(180deg);
+  transform-origin: center;
+}
+
+:is(.sign--up, .log--in) {
+  font-size: 14px;
+  display: block;
+  margin-top: 8px;
+}
+
+:is(.sign--up a, .log--in a) {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+:is(#login--form, #signup--form) {
+  margin: 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px gray solid;
+}
+
+.input--fields {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.input--fields label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  position: relative;
+}
+
+.input--fields input {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  text-align: center;
+}
+
+#forgot--pwd {
+  position: absolute;
+  right: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
+#RM--checkbox {
+  display: inline;
+  background-color: rgba(241, 47, 47, 0.3) !important;
+  color: rgb(61, 204, 85);
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  outline: none;
+}
+
+#rem--me {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+
+#rem--me input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid salmon;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+
+#rem--me:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+
+#rem--me input:checked ~ .checkmark {
+  background-color: rgb(209, 77, 160);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+
+#rem--me input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+
+#rem--me .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.input--fields input::placeholder {
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+}
+
+.span--div {
+  position: absolute;
+}
+
+.error {
+  font-size: 13px;
+  color: rgb(228, 7, 62);
+  font-weight: 600;
+  /* box-shadow: 0px 0px 25px 5px rgb(21, 136, 6);
+    background-color: rgb(21, 136, 6); */
+}
+
+#rem--me {
+  font-size: 13px;
+  color: rgb(205, 209, 212);
+  margin-left: 5px;
+}
+
+:is(#login--btn, #Register--btn) {
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-weight: 600;
+  border-left: 1px solid rgba(221, 218, 218, 0.3);
+  border-top: 1px solid rgba(221, 218, 218, 0.3);
+}
+
+:is(#login--btn:hover, #Register--btn:hover) {
+  background-color: rgba(218, 126, 247, 0.397);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.other--login--options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.other--login--options a {
+  width: 48%;
+}
+
+.O-O--btns {
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+}
+
+#ggl--btn {
+  color: rgb(10, 168, 134);
+  background-color: transparent;
+  border: 1px solid rgb(20, 129, 5);
+}
+
+:is(#ggl--btn, #fb--btn):hover {
+  background-color: rgba(192, 247, 229, 0.267);
+  color: rgb(255, 255, 255);
+}
+
+#ggl--btn:hover {
+  box-shadow: 0px 0px 25px 5px rgb(21, 136, 6);
+}
+
+#fb--btn {
+  color: #002173;
+  background-color: transparent;
+  border: 1px solid #002173;
+}
+
+#fb--btn:hover {
+  box-shadow: 0px 0px 25px 5px rgb(40, 3, 124);
+}
+
+.btn--icons {
+  position: absolute;
+  left: 25px;
+  top: 7px;
+}
+
+.img--card {
+  width: 50%;
+  height: 450px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.img--card:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.img--card img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 1086px) {
+  .main--card {
+    width: 85%;
+    height: 73vh !important;
+  }
+  .log--sign--card {
+    width: 50%;
+  }
+  .img--card {
+    width: 50%;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main--card {
+    width: 80%;
+    height: 80vh !important;
+    justify-content: center;
+  }
+  .log--sign--card {
+    width: 80%;
+    margin-top: 5px;
+  }
+  .img--card {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 949px) {
+  .main--card {
+    height: 90vh !important;
+  }
+  .log--sign--card {
+    top: -1rem;
+  }
+  .btn--icons {
+    left: 45px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .main--card {
+    width: 95%;
+    height: 98vh !important;
+    margin-top: 5px;
+  }
+  .log--sign--card {
+    width: 90%;
+    margin-top: 18px;
+  }
+  .btn--icons {
+    left: 1rem;
+  }
+}

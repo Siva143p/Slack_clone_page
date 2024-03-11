@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+
+    <!-- <style></style> -->
+  </head>
+
+  <body>
+    <!-- Header section Starts -->
+    <header>
+      <div class="navbar">
+        <div class="icon">
+          <a href="#">
+            <img id="icon" src="img/2111615.png" alt="" />
+            <h1>slack</h1>
+          </a>
+        </div>
+
+        <nav>
+          <ul>
+            <li id="Features" onclick="popups_(this)">
+              Features <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li id="Solutions">
+              Solutions <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li><a href="#">Enterprise</a></li>
+            <li id="Resources">
+              Resources <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header_btns">
+        <div class="login_part">
+          <i id="search-bar" class="fa-solid fa-magnifying-glass"></i>
+          <a id="sign-in" href="login.html" target="_blank">Sign in</a>
+        </div>
+
+        <div class="h-btns">
+          <a href="../card.html"><button id="btn-1">TALK TO SALES</button></a>
+          <a href="../card.html"><button id="btn-2">TRY FOR FREE</button></a>
+        </div>
+      </div>
+
+      <div class="md-q-header_btns">
+        <i
+          id="md-q-header_btns--search-bar"
+          class="fa-solid fa-magnifying-glass"
+        ></i>
+        <div class="toggle" id="toggle" onclick="popups_(this)">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="burger--icon"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- popup navbar -->
+    <div class="pop-up--nav">
+      <div class="popup--navbar">
+        <div>
+          <div class="popup-navbar--top">
+            <div class="icon">
+              <a href="#">
+                <img id="icon" src="img/2111615.png" alt="" />
+                <h1>slack</h1>
+              </a>
+            </div>
+
+            <div class="nav--cancel" id="nav--cancel" onclick="popups_(this)">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="black"
+                class="bi bi-x"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <nav>
+            <ul>
+              <li id="Features" onclick="popups_(this)">
+                Features
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="pop-nav-li--arrow"
+                  height="16"
+                  width="12.5"
+                  viewBox="0 0 320 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </li>
+              <li id="Solutions">
+                Solutions
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="pop-nav-li--arrow"
+                  height="16"
+                  width="12.5"
+                  viewBox="0 0 320 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </li>
+              <li><a href="#">Enterprise</a></li>
+              <li id="Resource">
+                Resources<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="pop-nav-li--arrow"
+                  height="16"
+                  width="12.5"
+                  viewBox="0 0 320 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#" id="demo-vid">Watch demo</a></li>
+              <li><a href="login.html" target="_blank">Sign in</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="popup-navbar--bottom">
+          <div class="h-btns">
+            <a href="../card.html"
+              ><button class="nav-pop--btns" id="btn-1">
+                TALK TO SALES
+              </button></a
+            >
+            <a href="../card.html"
+              ><button class="nav-pop--btns" id="btn-2">TRY FOR FREE</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header section Ends -->
+    <!-- popups starts -->
+    <div class="Features--popup common--popup--class">
+      <div class="popup--header">
+        <span id="popup-back--btn" onclick="popups_(this)"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="16"
+            width="26"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+            /></svg
+          >Back</span
+        >
+        <div
+          class="li--popup--cancel"
+          id="li--popup--cancel"
+          onclick="popups_(this)"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            fill="black"
+            class="bi bi-x"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="popup--main--container">
+        <div class="popup--main-con--box">
+          <div class="ul--cons">
+            <div class="popup--sub--cons">
+              <ul>
+                <span class="popup--sub-cons--head">COLLABORATION</span>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Channels</span>Organise teams and
+                    work</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Slack Connect</span>Work with
+                    external partners</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Messaging</span>Chat with your
+                    team</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Huddles</span>Meet using audio and
+                    video</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Clips</span>Record and share
+                    updates</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="popup--sub--cons">
+              <ul>
+                <span class="popup--sub-cons--head">AUTOMATION</span>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Workflow Builder</span>Automate
+                    everyday tasks</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Apps & integrations</span>Bring your
+                    tools to Slack</a
+                  >
+                </li>
+              </ul>
+
+              <ul>
+                <span class="popup--sub-cons--head">KNOWLEDGE</span>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Search</span>Seek shared
+                    knowledge</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Canvas</span>Create rich, flexible
+                    docs</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">File sharing</span>Bring files into
+                    the flow of work</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="popup--sub--cons">
+              <ul>
+                <span class="popup--sub-cons--head">ENTERPRISE PLATFORM</span>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Security</span>Protect data, ensure
+                    compliance</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Enterprise Key Management</span
+                    >Monitor and revoke access</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="li--head">Slack Atlas</span>Discover rich
+                    profiles and org charts</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="popup--main-con-box--2nd-cls">
+            <div class="link-div">
+              <a href="#" id="Watch--dem">Watch demo</a>
+              <a href="#"
+                >Download Slack
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  class="bi bi-cloud-arrow-down"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708z"
+                  />
+                  <path
+                    d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+                  /></svg
+              ></a>
+            </div>
+
+            <div class="popup--btns-div--lg-m">
+              <a href="#"
+                ><button class="popup-c-btns" id="popup-c-btn--1">
+                  CONTACT SALES
+                </button></a
+              >
+              <a href="#"
+                ><button class="popup-c-btns" id="popup-c-btn--2">
+                  GET SLACK FOR ANDROID
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="featured">
+          <div class="popup-featured--top">
+            <p class="popup-featured--head">FEATURED</p>
+            <a href="#">
+              <div class="popup-featured-top--img">
+                <img src="img/thumb-nav-slack-ai@2x.png" alt="" />
+              </div>
+              <p>Power productivity with all-new innovations in Slack</p>
+              <span class="popup-featured--span">Read announcement</span>
+            </a>
+          </div>
+          <div class="popup-featured--down">
+            <ul>
+              <li>
+                <a href="#">What is Slack?</a>
+              </li>
+              <li>
+                <a href="#">Slack vs email</a>
+              </li>
+              <li>
+                <a href="#">Accessibility</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="popup--btns-div--sm">
+          <a href="#"
+            ><button class="popup-c-btns" id="popup-c-btn--1">
+              GET SLACK FOR ANDROID
+            </button></a
+          >
+          <a href="#"
+            ><button class="popup-c-btns" id="popup-c-btn--2">
+              CONTACT SALES
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- popups ends -->
+    <!-- 1st component -->
+    <div class="container-1 container">
+      <div class="content-div">
+        <h5>SLACK CONNECT</h5>
+        <h1>A better way to work with people outside your company</h1>
+        <p>
+          Slack Connect transforms the way you work alongside your partners,
+          vendors or customers by moving conversations out of siloed email
+          threads and into the same place.
+        </p>
+
+        <a href="#"
+          ><button class="c-btn" id="content_btn-1">
+            GET SLACK FOR ANDROID
+          </button></a
+        >
+        <a href="#"
+          ><button class="c-btn" id="content_btn-2">CONTACT SALES</button></a
+        >
+      </div>
+
+      <div class="img-div">
+        <img src="img/img-slack-connect-hero.png" alt="" />
+      </div>
+    </div>
+
+    <!-- 2nd component -->
+    <div class="container-fluid benif-div">
+      <div class="b-container">
+        <h1>Get more done in Slack Connect</h1>
+        <p>
+          Whether you're working with vendors or sealing deals with a client,
+          Slack Connect is here to help.
+        </p>
+
+        <div class="b-con">
+          <div class="con">
+            <h2>4x</h2>
+            <p>faster deal cycles for a sales team</p>
+          </div>
+          <div class="con">
+            <h2>64%</h2>
+            <p>decrease in backlog tickets for a customer support team</p>
+          </div>
+          <div class="con">
+            <h2>2x</h2>
+            <p>
+              faster close in company acquisition for a business development
+              team
+            </p>
+          </div>
+        </div>
+        <small
+          >Claims and figures based on specific teams using Slack Connect at
+          their companies. Results may vary at your organisation.</small
+        >
+      </div>
+    </div>
+
+    <!-- 3rd component -->
+    <div class="con-ui container">
+      <div class="ui-view">
+        <div class="ui-msg-box">
+          <h4 style="font-weight: 700">
+            A1 Marketing Ltd.<i
+              class="fa-solid fa-chevron-down fa-2xs"
+              style="color: #ffffff"
+            ></i>
+          </h4>
+          <p class="ui-msg-box-d">
+            <i
+              class="fa-solid fa-caret-down fa-sm"
+              style="color: rgb(198, 198, 198)"
+            ></i>
+            Channels
+          </p>
+
+          <ul>
+            <li>
+              <p style="background-color: rgb(18, 100, 163); padding: 5px 0">
+                <i class="fa-light fa-hashtag" style="color: #dfdee3"></i>
+                a1-bigcorp
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa-light fa-hashtag" style="color: #dfdee3"></i>
+                announcements
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa-light fa-hashtag" style="color: #dfdee3"></i>
+                tech-alliances
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa-light fa-hashtag" style="color: #dfdee3"></i
+                ><span style="font-weight: 800"> win-wire</span>
+              </p>
+            </li>
+          </ul>
+
+          <p class="ui-msg-box-d">
+            <i
+              class="fa-solid fa-caret-down fa-sm"
+              style="color: rgb(198, 198, 198)"
+            ></i>
+            Direct messages
+          </p>
+
+          <ul class="ui-msg-box-2--ul">
+            <li>
+              <p>
+                <i class="fa-solid fa-heart fa-xs" style="color: #2bac76"></i>
+                Slackbot
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa-solid fa-circle fa-2xs" style="color: #2bac76"></i>
+                Geeta Joshi (you)
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa-solid fa-circle fa-2xs" style="color: #2bac76"></i>
+                Karandeep Singh
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa-solid fa-circle fa-2xs" style="color: #2bac76"></i>
+                Kriti Sanyal
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa-solid fa-circle fa-2xs" style="color: #2bac76"></i>
+                Fathima Parveen
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="ui-chat-box">
+          <div class="ucb-top">
+            <p>
+              <b
+                ><i class="fa-light fa-hashtag" style="color: #000000ce"></i>
+                a1-bigcorp</b
+              >
+            </p>
+          </div>
+
+          <div class="ucb-down">
+            <div class="ucb-down-cons">
+              <div class="ucb-img">
+                <div class="user-img">
+                  <img
+                    src="img/khaled-ghareeb-n84s3jgzhKk-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="active-chat"></div>
+              </div>
+
+              <div class="ucb-msg-con">
+                <p id="ucb-user-n">Fathima Parveen</p>
+                <small id="ucb-msg-time">13:09</small>
+                <p>
+                  Thanks A1 Marketing team! We'd like to move forward with the
+                  proposal. What are our next steps?
+                </p>
+              </div>
+            </div>
+
+            <div class="ucb-down-cons">
+              <div class="ucb-img">
+                <div class="user-img">
+                  <img
+                    src="img/tamara-bellis-Brl7bqld05E-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="ucb-msg-con">
+                <p id="ucb-user-n">Geeta Joshi</p>
+                <small id="ucb-msg-time">13:15</small>
+                <p>Amazing! Let me share the contract to be signed here.</p>
+              </div>
+            </div>
+
+            <div class="ucb-chat-bar">
+              <div class="dummy-div"></div>
+              <p><b>Big Corp</b> is in this channel</p>
+              <input type="text" disabled placeholder="Message #a1-bigcorp" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-content">
+        <h1>Connect faster with your partners</h1>
+
+        <ul>
+          <li>
+            <i class="fa-solid fa-circle-check" style="color: #4a154b"></i>
+            <div class="ui-con-p">
+              <p>
+                Bring communication out of inboxes and into channels, where you
+                can
+                <a href="#"
+                  >work quickly and collaboratively with outside
+                  organisations</a
+                >
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check" style="color: #4a154b"></i>
+            <div class="ui-con-p">
+              <p>
+                <a href="#">Strengthen client relationships</a> in channels to
+                provide top-tier enterprise support and drastically decrease
+                response times
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check" style="color: #4a154b"></i>
+            <div class="ui-con-p">
+              <p>
+                Send messages and share files in real time to build collective
+                insights along the way
+              </p>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="a-link">Get started with Slack Connect </a>
+      </div>
+    </div>
+
+    <!-- 4th component -->
+    <div class="container _4th-comp">
+      <div class="ui-content _4th-comp-content">
+        <h1>Connect securely with outside organisations</h1>
+
+        <ul>
+          <li>
+            <i class="fa-solid fa-circle-check" style="color: #4a154b"></i>
+            <div class="ui-con-p">
+              <p>
+                Keep your work secure with Slack’s enterprise-grade security
+                features and compliance standards
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check" style="color: #4a154b"></i>
+            <div class="ui-con-p">
+              <p>
+                Gain secure access to communicate and collaborate confidently
+                with partner organisations
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check" style="color: #4a154b"></i>
+            <div class="ui-con-p">
+              <p>
+                Reduce your team’s exposure to the email phishing and spam
+                attacks that come with email
+              </p>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="a-link"
+          >Learn more about Slack’s enterprise-grade security
+        </a>
+      </div>
+
+      <div class="_4th-comp-img">
+        <img src="img/img-connect-securely.png" alt="" />
+      </div>
+    </div>
+
+    <!-- 5th component -->
+    <div class="container _5th-comp">
+      <div class="_5th-comp-img">
+        <img src="img/connect-tools.jpg" alt="" />
+      </div>
+
+      <div class="ui-content _5th-comp-content">
+        <h1>Connect tools and automate workflows</h1>
+
+        <ul>
+          <li>
+            <i class="fa-solid fa-circle-check" style="color: #4a154b"></i>
+            <div class="ui-con-p">
+              <p>
+                Easily book meetings, share documents and simplify various other
+                routine tasks with apps
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check" style="color: #4a154b"></i>
+            <div class="ui-con-p">
+              <p>
+                Streamline processes and speed up collaboration by building and
+                connecting new workflows across organisations
+              </p>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="a-link">Apps to use in Slack Connect </a>
+      </div>
+    </div>
+
+    <!-- 6th component -->
+    <div class="container-fluid">
+      <div class="container _6th-comp">
+        <h1>How to get started</h1>
+        <p>
+          It only takes a few clicks to start working closely with vendors,
+          customers and more
+        </p>
+
+        <div class="points">
+          <div class="points-con">
+            <div class="hash-icon _1nt-nth">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="currentColor"
+                class="bi bi-hash"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.39 12.648a1 1 0 0 0-.015.18c0 .305.21.508.5.508.266 0 .492-.172.555-.477l.554-2.703h1.204c.421 0 .617-.234.617-.547 0-.312-.188-.53-.617-.53h-.985l.516-2.524h1.265c.43 0 .618-.227.618-.547 0-.313-.188-.524-.618-.524h-1.046l.476-2.304a1 1 0 0 0 .016-.164.51.51 0 0 0-.516-.516.54.54 0 0 0-.539.43l-.523 2.554H7.617l.477-2.304c.008-.04.015-.118.015-.164a.51.51 0 0 0-.523-.516.54.54 0 0 0-.531.43L6.53 5.484H5.414c-.43 0-.617.22-.617.532s.187.539.617.539h.906l-.515 2.523H4.609c-.421 0-.609.219-.609.531s.188.547.61.547h.976l-.516 2.492c-.008.04-.015.125-.015.18 0 .305.21.508.5.508.265 0 .492-.172.554-.477l.555-2.703h2.242zm-1-6.109h2.266l-.515 2.563H6.859l.532-2.563z"
+                />
+              </svg>
+            </div>
+            <h4>1. Create the channel</h4>
+            <p>
+              Click the + button next to Channels in your sidebar. Name the
+              channel, and click Create.
+            </p>
+          </div>
+
+          <div class="points-con">
+            <div class="points-icon">
+              <i
+                class="fa-regular fa-paper-plane fa-2xl"
+                style="color: #000000"
+              ></i>
+            </div>
+            <h4>2. Send the invite</h4>
+            <p>
+              Invite your partner right from Slack. If you're on the Business+
+              or Enterprise Grid subscription, you can also copy and share the
+              link provided.
+            </p>
+          </div>
+
+          <div class="points-con">
+            <div class="points-icon">
+              <i
+                class="fa-solid fa-hands-clapping fa-2xl"
+                style="color: #000000"
+              ></i>
+            </div>
+            <h4>3. Wait for your partner</h4>
+            <p>
+              After they click on the link, they’ll be taken back to Slack to
+              accept and set up the channel on their end.
+            </p>
+          </div>
+
+          <div class="points-con">
+            <div class="_1nt-nth">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="currentColor"
+                class="bi bi-person-lock"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 5.996V14H3s-1 0-1-1 1-4 6-4q.845.002 1.544.107a4.5 4.5 0 0 0-.803.918A11 11 0 0 0 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664zM9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1"
+                />
+              </svg>
+            </div>
+            <h4>4. Get admin approval</h4>
+            <p>
+              Depending on your settings, the invitation may be sent to an admin
+              on each team for approval.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7th component -->
+    <div class="container-fluid _7th-comp_fs">
+      <div class="container _7th-comp">
+        <div class="_7th-comp-content">
+          <h1>Built for roles of all types</h1>
+          <p>
+            Slack Connect allows you to build deeper relationships with all the
+            people that you work with, no matter the profession.
+          </p>
+        </div>
+
+        <div class="_7th-comp--service-comp">
+          <a href="#" class="service--comps">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-briefcase"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5"
+              />
+            </svg>
+
+            <span class="service-comps--title">Sales</span>
+            <span class="service-comps--con"
+              >Close deals with prospects faster</span
+            ><br />
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="link-arrow"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="service--comps">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-bullseye"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+              />
+              <path
+                d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10m0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12"
+              />
+              <path
+                d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8"
+              />
+              <path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+            </svg>
+
+            <span class="service-comps--title">Customer success</span>
+            <span class="service-comps--con"
+              >Build stronger customer relationships</span
+            >
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="link-arrow"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="service--comps">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="50"
+              width="50"
+              fill="currentColor"
+              viewBox="0 0 576 512"
+            >
+              <path
+                d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm40 304V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V256.9L59.4 304.5c-9.1 15.1-28.8 20-43.9 10.9s-20-28.8-10.9-43.9l58.3-97c17.4-28.9 48.6-46.6 82.3-46.6h29.7c33.7 0 64.9 17.7 82.3 46.6l44.9 74.7c-16.1 17.6-28.6 38.5-36.6 61.5c-1.9-1.8-3.5-3.9-4.9-6.3L232 256.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V352H152zM432 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 240a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM368 321.6V328c0 8.8 7.2 16 16 16s16-7.2 16-16v-6.4c0-5.3 4.3-9.6 9.6-9.6h40.5c7.7 0 13.9 6.2 13.9 13.9c0 5.2-2.9 9.9-7.4 12.3l-32 16.8c-5.3 2.8-8.6 8.2-8.6 14.2V384c0 8.8 7.2 16 16 16s16-7.2 16-16v-5.1l23.5-12.3c15.1-7.9 24.5-23.6 24.5-40.6c0-25.4-20.6-45.9-45.9-45.9H409.6c-23 0-41.6 18.6-41.6 41.6z"
+              />
+            </svg>
+
+            <span class="service-comps--title">Service</span>
+            <span class="service-comps--con"
+              >Resolve customer issues faster</span
+            >
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="link-arrow"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="service--comps">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-megaphone"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z"
+              />
+            </svg>
+
+            <span class="service-comps--title">Marketing</span>
+            <span class="service-comps--con"
+              >Work faster with agency partners</span
+            >
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="link-arrow"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="service--comps">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-gear"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"
+              />
+              <path
+                d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"
+              />
+            </svg>
+
+            <span class="service-comps--title">Operations</span>
+            <span class="service-comps--con"
+              >Work quickly with vendors and suppliers</span
+            >
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="link-arrow"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </a>
+
+          <a href="#" class="service--comps">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="50"
+              width="50"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="M512 32c0 113.6-84.6 207.5-194.2 222c-7.1-53.4-30.6-101.6-65.3-139.3C290.8 46.3 364 0 448 0h32c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64H64c123.7 0 224 100.3 224 224v32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V320C100.3 320 0 219.7 0 96z"
+              />
+            </svg>
+
+            <span class="service-comps--title">Business development</span>
+            <span class="service-comps--con"
+              >Work quickly with partners on joint initiatives</span
+            >
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="link-arrow"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <img class="_7th-comp--off-img" src="img/img-roles.png" alt="" />
+      </div>
+    </div>
+
+    <!-- 8th component -->
+    <div class="container _8th-comp">
+      <div class="_8th-comp-content">
+        <h1>Join the 350,000+ organisations working in Slack Connect</h1>
+        <a href="#">See all customer stories</a>
+      </div>
+
+      <div class="_8th-comp-carousel">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <a href="#">
+              <div class="carousel--card">
+                <div class="carousel--card--img">
+                  <img
+                    src="img/iress-customer-story-hero-image@2x.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel--card--con">
+                  <div class="carousel--card--con-logo">
+                    <img src="img/Iress_logo.png" alt="" />
+                  </div>
+                  <p>
+                    'Slack helps us to drive a culture of one global team that
+                    is accessible and works closely and cohesively together to
+                    deliver great things for our clients and users.'
+                  </p>
+                  <span>Andrew Walsh</span>
+                  <p id="role">CEO</p>
+
+                  <span class="carousel--read-story">READ STORY</span>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="carousel--link-arrow"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="item">
+            <div class="carousel--card">
+              <div class="carousel--card--img">
+                <img src="img/slack-customer-story-xero@2x.jpg" alt="" />
+              </div>
+              <div class="carousel--card--con">
+                <div class="carousel--card--con-logo">
+                  <img src="img/1200px-Xero_software_logo.svg.png" alt="" />
+                </div>
+
+                <p>
+                  "Slack is ingrained in the way we communicate and work at
+                  Xero. It has enabled faster and more transparent information
+                  sharing across our teams, improving employee engagement and
+                  ultimately making it easier to build beautiful products."
+                </p>
+                <span>Levi Allan</span>
+                <p id="role">
+                  Executive General Manager - Practice and Compliance
+                </p>
+
+                <span class="carousel--read-story">READ STORY</span>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="carousel--link-arrow"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel--card">
+              <div class="carousel--card--img">
+                <img
+                  src="img/deliveroo-customer-story-hero-image@2x-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="carousel--card--con">
+                <div class="carousel--card--con-logo--delivroo">
+                  <img src="img/Deliveroo_Logo_1600x400.avif" alt="" />
+                </div>
+
+                <p>
+                  "There are all these different pieces of custom functionality
+                  that we've been able to add to Slack. As a tech business,
+                  that's really enticing. We've been able to take Slack and not
+                  just use it out of the box - but really make it our own."
+                </p>
+                <span>Will Sprunt</span>
+                <p id="role">CIO</p>
+
+                <span class="carousel--read-story">READ STORY</span>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="carousel--link-arrow"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9th component -->
+    <div class="container _9th-comp">
+      <div class="_9th-comp-img-con">
+        <div class="_9th-comp--imgs">
+          <img src="img/Peloton-logo.png" alt="" />
+        </div>
+
+        <div class="_9th-comp--imgs">
+          <img src="img/Target_Bullseye-Logo_Red.jpg" alt="" />
+        </div>
+
+        <div class="_9th-comp--imgs">
+          <img src="img/Uber-Logo.wine.png" alt="" />
+        </div>
+
+        <div class="_9th-comp--imgs">
+          <img src="img/seek5982.jpg" alt="" />
+        </div>
+
+        <div class="_9th-comp--imgs">
+          <img src="img/TIME-Logo.png" alt="" />
+        </div>
+
+        <div class="_9th-comp--imgs">
+          <img src="img/Autodesk-Logo.jpg" alt="" />
+        </div>
+
+        <div class="_9th-comp--imgs">
+          <img src="img/_1511452487_364_Airbnb-mobile.jpg" alt="" />
+        </div>
+      </div>
+
+      <a href="#" id="_9th-comp--hover-btn">SEE ALL CUSTOMERS STORIES</a>
+    </div>
+
+    <!-- 10th component -->
+    <div class="container _10th-comp">
+      <h1>Learn more about Slack Connect</h1>
+      <div class="_10th-comp-card">
+        <a class="_10th-comp--cards">
+          <div class="card--banner">
+            <img src="img/shared-channels-security@2x.jpg" alt="" />
+          </div>
+          <p id="card--ttl">Blog</p>
+          <p id="card--con">
+            See why more than 100K organisations trust Slack Connect
+          </p>
+
+          <p id="card--dn">READ STORY</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="link-arrow"
+            width="30"
+            height="30"
+            fill=" #007aff"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </a>
+
+        <a class="_10th-comp--cards">
+          <div class="card--banner">
+            <img src="img/2020-04_Haughey_SharedChannels_Hero.webp" alt="" />
+          </div>
+          <p id="card--ttl">Blog</p>
+          <p id="card--con">Slack Connect for remote work</p>
+
+          <p id="card--dn">READ STORY</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="link-arrow"
+            width="30"
+            height="30"
+            fill=" #007aff"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </a>
+
+        <a class="_10th-comp--cards">
+          <div class="card--banner">
+            <img
+              src="img/external-collaboration-shared-channels@2x.jpg"
+              alt=""
+            />
+          </div>
+          <p id="card--ttl">Resource</p>
+          <p id="card--con">Guest accounts vs sharing a channel</p>
+
+          <p id="card--dn">READ STORY</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="link-arrow"
+            width="30"
+            height="30"
+            fill=" #007aff"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- 11th component -->
+    <div class="container-fluid _11th-comp">
+      <h1>Frequently asked questions</h1>
+
+      <div class="Q-A">
+        <!-- Q1 -->
+        <div class="question" onclick="ans_pop(this)">
+          <p class="Q-A--q">Is Slack Connect free?</p>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="Q--down-arrow"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-chevron-down"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p class="Q-A--a">
+            All of Slack’s subscriptions include the ability to send a
+            one-to-one message to someone outside your organisation via Slack
+            Connect. However, to share channels across orgs, you’ll need to be
+            on one of Slack’s paid subscriptions. <br /><br />If you are on the
+            Enterprise Grid subscription, external partners on a free
+            subscription can join Slack Connect channels without having to
+            upgrade or start a free trial. If you are on a different paid
+            subscription, that’s not a problem! Once you’ve invited your
+            partners to collaborate with Slack Connect, if they’re eligible,
+            they’ll get a 90-day free trial of Slack’s Pro subscription.
+          </p>
+        </div>
+
+        <!-- Q2 -->
+        <div class="question" onclick="ans_pop(this)">
+          <p class="Q-A--q">
+            How do I start working with someone outside my company in Slack?
+          </p>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="Q--down-arrow"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-chevron-down"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p class="Q-A--a">
+            You can <a href="#">invite someone outside your company</a> to share
+            a channel in Slack. Or, skip the channels for now and send an
+            invitation to start exchanging direct messages – just like you would
+            with other DMs!. <br /><br />It really only takes a few clicks to
+            start working closely with vendors, customers and more.
+            <a href="#"
+              >Our sales team would be happy to help you get started.</a
+            >
+          </p>
+        </div>
+
+        <!-- Q3 -->
+        <div class="question" onclick="ans_pop(this)">
+          <p class="Q-A--q">
+            What’s the difference between Slack Connect and Slack channels?
+          </p>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="Q--down-arrow"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-chevron-down"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </div>
+        <div class="answer" onclick="ans_pop(this)">
+          <p class="Q-A--a">
+            Great question! Channels in Slack transform the way that you work
+            with your colleagues. Similarly, Slack Connect makes it possible to
+            work in channels with people from outside your company, as well.
+            With Slack Connect, you don’t need to give people access to your
+            whole Slack workspace – just the channels that you need to
+            collaborate in.
+          </p>
+        </div>
+
+        <!-- Q4 -->
+        <div class="question" onclick="ans_pop(this)">
+          <p class="Q-A--q">How is Slack Connect more secure than email?</p>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="Q--down-arrow"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-chevron-down"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p class="Q-A--a">
+            With Slack Connect, admins can maintain control over their
+            organisation’s data and monitor external access. And unlike
+            collaborating via email – which leaves users open to the risk of
+            spam and phishing – working in channels only allows teams to receive
+            messages and files from verified members. Learn more about the
+            enterprise-grade security built into Slack Connect
+            <a href="#">here.</a>
+          </p>
+        </div>
+
+        <!-- Q5 -->
+        <div class="question" onclick="ans_pop(this)">
+          <p class="Q-A--q">
+            What are some recommended use cases for Slack Connect?
+          </p>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="Q--down-arrow"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-chevron-down"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </div>
+        <div class="answer">
+          <p class="Q-A--a">
+            Slack Connect makes working with people from other companies as fast
+            and simple as working with your teammates on Slack. That makes it
+            ideal for collaborating with external partners, vendors and
+            customers. The fast, efficient communication in Slack channels and
+            direct messages can help teams across companies to:
+          </p>
+          <br /><br />
+
+          <p>• Build stronger customer relationships</p>
+          <br />
+          <p>• Decrease response times</p>
+          <br />
+          <p>• Speed up sales cycles</p>
+          <br />
+          <p>• Seize new opportunities</p>
+          <br />
+          <p>• Connect workflows across organisations</p>
+          <br />
+          <br /><br />
+          <p>
+            Plus, it’s all backed by Slack’s enterprise-grade security. Get more
+            ideas from our article on
+            <a href="#">communicating better with external partners</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 12th component -->
+    <div class="contanier-fluid">
+      <div class="_12th-comp">
+        <div class="_12th-comp--content">
+          <h1>Interested in Slack Connect?</h1>
+          <a href="#">
+            <button id="con-sal-btn">contact sales</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-menu--nav container">
+        <div class="footer-menu--slack_logo">
+          <div class="footer-menu--slack_logo--img">
+            <img src="img/2111615.png" alt="" />
+          </div>
+        </div>
+        <nav class="footer--nav">
+          <ul class="footer-nav--ul">
+            <li>
+              <ul onclick="footer_Nav_pop(this)">
+                <span class="c-btn--heading"
+                  >WHY SLACK?
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-chevron-right footer-menu-nav--chevron"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                    /></svg
+                ></span>
+                <li>
+                  <a href="#">Slack vs email</a>
+                </li>
+                <li>
+                  <a href="#">Channels</a>
+                </li>
+                <li>
+                  <a href="#">Engagement</a>
+                </li>
+                <li>
+                  <a href="#">Scale</a>
+                </li>
+                <li>
+                  <a href="#">Watch demo</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul onclick="footer_Nav_pop(this)">
+                <span class="c-btn--heading"
+                  >PRODUCT
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-chevron-right footer-menu-nav--chevron"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                    /></svg
+                ></span>
+                <li>
+                  <a href="#">Features</a>
+                </li>
+                <li>
+                  <a href="#">Integrations</a>
+                </li>
+                <li>
+                  <a href="#">Enterprise</a>
+                </li>
+                <li>
+                  <a href="#">Solutions</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul onclick="footer_Nav_pop(this)">
+                <span class="c-btn--heading"
+                  >Pricing
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-chevron-right footer-menu-nav--chevron"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                    /></svg
+                ></span>
+                <li>
+                  <a href="#">Subscriptions</a>
+                </li>
+                <li>
+                  <a href="#">Paid vs free</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul onclick="footer_Nav_pop(this)">
+                <span class="c-btn--heading"
+                  >RESOURCES
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-chevron-right footer-menu-nav--chevron"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                    /></svg
+                ></span>
+                <li>
+                  <a href="#">Partners</a>
+                </li>
+                <li>
+                  <a href="#">Developers</a>
+                </li>
+                <li>
+                  <a href="#">Community</a>
+                </li>
+                <li>
+                  <a href="#">Apps</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Help Center</a>
+                </li>
+                <li>
+                  <a href="#">Events</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul onclick="footer_Nav_pop(this)">
+                <span class="c-btn--heading"
+                  >COMPANY
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-chevron-right footer-menu-nav--chevron"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                    /></svg
+                ></span>
+                <li>
+                  <a href="#">About us</a>
+                </li>
+                <li>
+                  <a href="#">Leadership</a>
+                </li>
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li>
+                  <a href="#">Media kit</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Slack shop</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-social_media container">
+        <nav class="sm-tp--nav">
+          <ul>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Your privacy choices</a></li>
+            <li><a href="#">Cookie preferences</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li>
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="globe-icon"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-globe2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"
+                  />
+                </svg>
+                Change region <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="dwnld--n--icons">
+          <a href="#" class="dwnld-slack--btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="txt-with-icon"
+              width="18"
+              height="18"
+              fill="currentColor"
+              class="bi bi-cloud-arrow-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708z"
+              />
+              <path
+                d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"
+              />
+            </svg>
+            Download Slack
+          </a>
+
+          <nav class="sm-tp--nav--icons sm-tp--nav">
+            <ul>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-twitter"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="16"
+                    width="16"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-youtube"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-linkedin"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                    /></svg
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer-legal container">
+        <small class="Copyright">
+          &copy;2024 Slack Technologies, LLC, a Salesforce company. All rights
+          reserved. Various trademarks held by their respective owners.</small
+        >
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/7ea1f649cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <!-- <script src="text.js"></script> -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
